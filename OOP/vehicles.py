@@ -8,12 +8,12 @@ class Vehicle:
 # Car Class
 class Car(Vehicle):
     def move(self):
-        print("Driving 🚗")
+        print("Driving")
 
 # Plane Class
 class Plane(Vehicle):
     def move(self):
-        print("Flying ✈️")
+        print("Flying")
 
 # Example Usage
 if __name__ == "__main__":
